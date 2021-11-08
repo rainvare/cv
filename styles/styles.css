@@ -62,12 +62,15 @@ dl{
 
 
 footer{
-    height: 100px;
+    height: auto;
     background-color:  #1b9aaa;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-content: center;
 }
 .footer a{
     color: #f8ffe5;
+    padding: 20px;
+    text-decoration: none;
 }
